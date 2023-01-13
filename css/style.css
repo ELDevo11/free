@@ -1064,7 +1064,7 @@ header .content p:last-child {
   margin: 10px 0;
   width: 370px;
 }
-.content button {
+.content a {
   border: 2px solid #fff;
   background-color: var(--main-color);
   color: #fff;
@@ -1081,9 +1081,27 @@ header .content p:last-child {
   .hello .content p {
     font-size: 20px;
   }
-  .content button {
+  .content a {
     padding: 10px 20px;
   }
 }
 /* end hello section */
 /* end sign up */
+/* start signin */
+form p {
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  color: #4d4d4d;
+  margin: 30px ;
+}
+form p:hover {
+  color: #000;
+  cursor: pointer;
+}
+@media (max-width:992px) {
+  form p {
+    font-size: 25px;
+  }
+}
+/* end signin */
